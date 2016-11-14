@@ -7,8 +7,8 @@ $sOut = '';
 
 //~~~~~~~~~~~
 
-$f = fopen('DB.DAT', 'r');
-$sRead_DB_Server = fread($f, filesize('DB.DAT'));
+$f = fopen('https://bxchusun.github.io/le-huong-van/DB.DAT', 'r');
+$sRead_DB_Server = fread($f, filesize('https://bxchusun.github.io/le-huong-van/DB.DAT'));
 fclose($f);
 
 
